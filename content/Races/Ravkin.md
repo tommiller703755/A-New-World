@@ -1,6 +1,9 @@
 **Nomadic carnivorous gnomes** 
 ## Video test
-![](https://www.youtube.com/watch?v=XnVB4rCbgqI)
+<video src="../Images/nature_stock_footage.mp4" width="100%" controls>
+  Your browser does not support the video tag.
+</video>
+
 ## Story Section
 
 
