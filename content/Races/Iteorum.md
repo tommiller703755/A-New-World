@@ -1,1 +1,0 @@
-**Orcs/lycanthropes, IDK yet** 
