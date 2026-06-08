@@ -1,6 +1,6 @@
 **Nomadic carnivorous gnomes** 
 ## Video test
-![https://www.youtube.com/watch?v=XnVB4rCbgqI]
+![](https://www.youtube.com/watch?v=XnVB4rCbgqI)
 ## Story Section
 
 
