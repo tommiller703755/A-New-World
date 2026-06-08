@@ -1,0 +1,1 @@
+The Bethionese Theocracy is a largely isolationist nation of 
