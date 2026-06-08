@@ -32,9 +32,9 @@ configuration:
         textHighlight: "#fff23688"
       darkMode:
         light: "#f1e9d2"
-        lightgray: "#e6d8B0"
+        lightgray: "#e6d8b0"
         gray: "#dcc78d"
-        darkgray: "#dcc78d"
+        darkgray: "#3e422e"
         dark: "#ebebec"
         secondary: "#7b97aa"
         tertiary: "#84a59d"
