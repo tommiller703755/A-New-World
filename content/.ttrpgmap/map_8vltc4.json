@@ -1,0 +1,70 @@
+{
+  "mapId": "map_8vltc4",
+  "markers": [
+    {
+      "id": "marker_1780730776497_3y26gm",
+      "templateId": "default",
+      "x": 240.14483345272208,
+      "y": 248.18135035856994,
+      "layerId": null,
+      "note": "Continents/Trowen/Nations/Bethionese Theocracy",
+      "alias": "The Theocracy",
+      "previewNote": null,
+      "description": null,
+      "direction": "down",
+      "textPlacement": "above",
+      "color": "#ff0000",
+      "icon": null,
+      "iconColor": "#000000",
+      "iconRotation": 0,
+      "useBaseMarker": true,
+      "shape": "pin",
+      "scale": null,
+      "scaleToZoom": null,
+      "textScale": null,
+      "textScaleToZoom": null,
+      "font": null,
+      "textVisibility": null
+    },
+    {
+      "id": "marker_1780730852394_rh6uvb",
+      "templateId": "default",
+      "x": 353.99392609837633,
+      "y": 164.9752434883409,
+      "layerId": null,
+      "note": "Races/Lepids",
+      "alias": "Butterfly People",
+      "previewNote": null,
+      "description": null,
+      "direction": "up",
+      "textPlacement": "above",
+      "color": "#460066",
+      "icon": null,
+      "iconColor": "#000000",
+      "iconRotation": 0,
+      "useBaseMarker": true,
+      "shape": "pin",
+      "scale": 2.9,
+      "scaleToZoom": null,
+      "textScale": null,
+      "textScaleToZoom": null,
+      "font": null,
+      "textVisibility": null
+    }
+  ],
+  "layers": [
+    {
+      "id": "default",
+      "name": "Default Layer",
+      "zoomMin": null,
+      "zoomMax": null
+    }
+  ],
+  "distanceScale": null,
+  "lastImagePath": "Images/test_map.webp",
+  "lastSourcePath": "Map page.md",
+  "markersLocked": false,
+  "savedZoom": 120,
+  "savedPanX": -126.28957708957705,
+  "savedPanY": 20.382434232434207
+}
