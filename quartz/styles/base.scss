@@ -5,6 +5,8 @@
 @use "./callouts.scss";
 @use "./custom.scss";
 
+@use "./themes/index.scss";
+
 html {
   scroll-behavior: smooth;
   text-size-adjust: none;
@@ -682,3 +684,4 @@ iframe.pdf {
   transition: width 0.2s ease;
   z-index: 9999;
 }
+
