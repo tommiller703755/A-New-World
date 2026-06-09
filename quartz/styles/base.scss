@@ -5,7 +5,7 @@
 @use "./callouts.scss";
 @use "./custom.scss";
 
-@use "./themes/index.scss";
+@import "./themes/index.scss";
 
 html {
   scroll-behavior: smooth;
