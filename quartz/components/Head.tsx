@@ -4,6 +4,8 @@ import { CSSResourceToStyleElement, JSResourceToScriptElement } from "../util/re
 import { googleFontHref, googleFontSubsetHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { unescapeHTML } from "../util/escape"
+import "../styles/base.scss"
+import "../styles/themes/_index.scss"
 
 export default (() => {
   const Head: QuartzComponent = ({

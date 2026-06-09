@@ -1,7 +1,15 @@
-![[weird_looking_cat.jpg]]
+---
+title: Welcome to the website!
+---
+
+
+<figure>
+	<img src="./images/weird_looking_cat.jpg" />
+	<figcaption>This is the caption</figcaption>
+</figure>
 
 [[Ravkin]]
-[[Continents/Trowen/Biomes/Biomes|Trowen Biomes]] 
+[[Continents/Trowen/Biomes|Trowen Biomes]] 
 [[Map page]] 
 
 If this text is appearing then I've gotten quick and easy updates working!

@@ -3,6 +3,7 @@
 @use "./variables.scss" as *;
 @use "./syntax.scss";
 @use "./callouts.scss";
+@use "./custom.scss";
 
 html {
   scroll-behavior: smooth;
@@ -229,7 +230,7 @@ a {
     }
 
     & .sidebar.left {
-      z-index: 1;
+      z-index: 2;
       grid-area: grid-sidebar-left;
       flex-direction: column;
       @media all and ($mobile) {

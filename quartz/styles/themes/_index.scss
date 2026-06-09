@@ -1,0 +1,397 @@
+/* ==========================================
+   FANTASY QUARTZ THEME (LIGHT + DARK)
+   + LAYOUT + EXPLORER + WIDTH ADJUSTMENTS
+========================================== */
+
+
+/* ==========================================
+   BASE (LIGHT MODE / DEFAULT)
+========================================== */
+
+:root {
+  --background-primary: #f3e7d3;
+  --background-secondary: #ead8b8;
+  --background-tertiary: #dcc79f;
+
+  --text-normal: #2b1d13;
+  --text-muted: #5a4633;
+  --text-faint: #7a624a;
+
+  --link-color: #6b3e2e;
+  --link-hover: #8a4f3a;
+
+  --accent-primary: #7a4a2b;
+  --accent-secondary: #b08a5a;
+
+  --border-color: #c9b08a;
+
+  --code-bg: #e9dcc6;
+  --code-text: #2a1a12;
+
+  --highlight: #fff1c2;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 2px solid #9b5300;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 75%;
+  height: auto;
+}
+
+figure {
+  display: table;
+  margin: 0 auto;
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  text-align: left;
+  padding-top: 8px;
+}
+
+video {
+  width: 75%;
+  height: 75%;
+  display: block;
+  margin: 15px auto;
+  max-width: 100%;
+}
+
+/* ---------- CENTERED LAYOUT ---------- */
+body {
+  font-family: "Garamond", "Goudy Old Style", "Palatino Linotype", serif;
+  background: radial-gradient(circle at top, #f7ecd8 0%, #e9d7b6 100%);
+  color: var(--text-normal);
+  line-height: 1.6;
+  letter-spacing: 0.2px;
+
+  display: flex;
+  justify-content: center;
+  margin: 20px 50px 20px 50px;
+}
+
+/* ---------- WIDTH ADJUSTMENTS ---------- */
+
+/* Main center content (make much wider) */
+.center {
+  min-width: 0;
+  max-width: 900px;   /* increased significantly */
+  width: 100%;
+  flex-grow: 3;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Side panels (slightly wider) */
+.left, .right {
+  max-width: 320px;    /* modest increase */
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+}
+
+.left {
+  min-width: 0;
+  overflow-wrap: break-word;
+  z-index: static;
+  margin-left: 20px;
+  margin-right: auto;
+  border-right: 1px solid var(--border-color);
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: inset 10px 0 20px rgba(25,25,25,1);
+}
+
+.right {
+  min-width: 0;
+  overflow-wrap: break-word;
+  z-index: static;
+  margin-left: auto;
+  margin-right: 20px;
+  border-left: 1px solid var(--border-color);
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: inset -10px 0 20px rgba(25,25,25,1);
+}
+
+/* Main content container */
+.page, .content, article {
+  max-width: 100%;
+  width: 100%;
+  margin-top: 0.75rem;
+}
+
+.page-header {
+  margin-top: 20px;
+}
+
+#quartz-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+
+/* ---------- HEADINGS ---------- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Cinzel", "Garamond", serif;
+  color: var(--accent-primary);
+  letter-spacing: 1px;
+}
+
+
+/* ---------- LINKS ---------- */
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(122, 74, 43, 0.4);
+}
+
+a:hover {
+  color: var(--link-hover);
+  border-bottom: 1px solid var(--link-hover);
+}
+
+
+/* ---------- SIDEBAR / EXPLORER ---------- */
+.sidebar, .nav-view, .filetree {
+  background: var(--background-secondary);
+
+  margin: 1.5rem;
+  border-radius: 8px;
+}
+
+
+/* Explorer item spacing tweaks */
+.filetree a {
+  display: block;
+  width: 100%;
+}
+
+/* Directories */
+.filetree li:has(ul) > a {
+  padding: 0.2rem 0.4rem;
+  font-weight: 600;
+}
+
+/* Files */
+.filetree li:not(:has(ul)) > a {
+  padding: 0.45rem 0.6rem;
+}
+
+li, ul {
+  width: 100%;
+}
+
+.explorer-content {
+  padding: 15px;
+}
+
+.tree-item-children {
+  width: 150px;
+}
+
+.folder-outer {
+  height: 20px;
+  transition: height 0.3s ease-out;
+}
+
+.folder-outer.open {
+  height: 100%;
+}
+
+/* ---------- CONTENT PANELS ---------- */
+article, .content, .page {
+  background: rgba(255, 248, 230, 0.6);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+
+/* ---------- BLOCKQUOTE ---------- */
+blockquote {
+  border-left: 4px solid var(--accent-primary);
+  background: rgba(255, 245, 220, 0.7);
+  padding: 0.75rem 1rem;
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+
+/* ---------- CODE ---------- */
+code {
+  background: var(--code-bg);
+  color: var(--code-text);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: "Courier New", monospace;
+}
+
+pre {
+  background: #efe2c8;
+  border: 1px solid var(--border-color);
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+
+/* ---------- TABLES ---------- */
+table {
+  background: rgba(255, 250, 235, 0.7);
+  border-collapse: collapse;
+}
+
+th {
+  background: var(--background-tertiary);
+}
+
+td, th {
+  border: 1px solid var(--border-color);
+  padding: 0.5rem;
+}
+
+
+/* ---------- HIGHLIGHT ---------- */
+mark {
+  background: var(--highlight);
+}
+
+
+/* ---------- SCROLLBAR ---------- */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent-secondary);
+  border-radius: 6px;
+}
+
+
+/* ---------- PAPER TEXTURE ---------- */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: url("https://www.transparenttextures.com/patterns/paper-fibers.png");
+  opacity: 0.25;
+  mix-blend-mode: multiply;
+}
+
+
+/* ==========================================
+   DARK MODE (CURSED TOME)
+========================================== */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-primary: #0f0d0b;
+    --background-secondary: #181512;
+    --background-tertiary: #221d18;
+
+    --text-normal: #e8dcc0;
+    --text-muted: #b8a98a;
+    --text-faint: #8a7a5c;
+
+    --link-color: #c96f3c;
+    --link-hover: #ff9b5e;
+
+    --accent-primary: #a14b2b;
+    --accent-secondary: #6e2f1f;
+
+    --border-color: #3a2f26;
+
+    --code-bg: #1a1512;
+    --code-text: #f0e6d2;
+
+    --highlight: #3a2a1a;
+  }
+
+  body {
+    background: radial-gradient(circle at top, #1a1612 0%, #0b0907 100%);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #e0b47a;
+    text-shadow: 0 0 6px rgba(224, 180, 122, 0.15);
+  }
+
+  article, .content, .page {
+    background: rgba(20, 16, 13, 0.85);
+    box-shadow:
+      0 0 0 1px rgba(255, 140, 60, 0.05),
+      0 6px 18px rgba(0,0,0,0.6);
+  }
+
+  .sidebar, .nav-view, .filetree {
+    background: #14110e;
+    //box-shadow: inset -8px 0 20px rgba(0,0,0,0.6);
+  }
+
+  a:hover {
+    text-shadow: 0 0 4px rgba(255, 155, 94, 0.4);
+  }
+
+  blockquote {
+    background: rgba(40, 30, 20, 0.6);
+  }
+
+  pre {
+    background: #120e0b;
+  }
+
+  table {
+    background: rgba(30, 24, 18, 0.7);
+  }
+
+  th {
+    background: #2a221b;
+  }
+
+  ::selection {
+    background: #5a2e1a;
+    color: #fff;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #120f0c;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #5a3a2a;
+  }
+
+  body::before {
+    background-image: url("https://www.transparenttextures.com/patterns/dark-matter.png");
+    opacity: 0.2;
+    mix-blend-mode: overlay;
+  }
+}
+
+
+/* ==========================================
+   OPTIONAL MANUAL OVERRIDES
+========================================== */
+
+.cursed-theme {
+  color-scheme: dark;
+}
+
+.parchment-theme {
+  color-scheme: light;
+}
