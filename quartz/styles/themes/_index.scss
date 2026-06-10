@@ -65,15 +65,15 @@ video {
 
 /* ---------- CENTERED LAYOUT ---------- */
 body {
-  font-family: "Garamond", "Goudy Old Style", "Palatino Linotype", serif;
-  background: radial-gradient(circle at top, #f7ecd8 0%, #e9d7b6 100%);
-  color: var(--text-normal);
-  line-height: 1.6;
-  letter-spacing: 0.2px;
+  font-family: "Garamond", "Goudy Old Style", "Palatino Linotype", serif !important;
+  background: radial-gradient(circle at top, #f7ecd8 0%, #e9d7b6 100%) !important;
+  color: var(--text-normal) !important;
+  line-height: 1.6 !important;
+  letter-spacing: 0.2px !important;
 
-  display: flex;
-  justify-content: center;
-  margin: 20px 50px 20px 50px;
+  display: flex !important;
+  justify-content: center !important;
+  margin: 20px 50px 20px 50px !important;
 }
 
 /* ---------- WIDTH ADJUSTMENTS ---------- */
@@ -138,7 +138,7 @@ body {
   justify-content:center !important;
   align-content: center !important;
 
-  flex-grow: 1;
+  width: 1fr !important;
 }
 
 #quartz-root {
