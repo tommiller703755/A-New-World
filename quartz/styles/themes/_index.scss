@@ -82,7 +82,7 @@ body {
 .center {
   min-width: 0;
   max-width: 900px !important;   /* increased significantly */
-  width: 100%;
+  width: 100% !important;
   flex-grow: 3 !important;
   margin-left: auto !important;
   margin-right: auto !important;
@@ -90,8 +90,8 @@ body {
 
 /* Side panels (slightly wider) */
 .left, .right {
-  max-width: 320px;    /* modest increase */
-  width: 100%;
+  max-width: 320px !important;    /* modest increase */
+  width: 100% !important;
   display: flex !important;
   flex-grow: 1;
 }
