@@ -73,6 +73,7 @@ body {
 
   display: flex !important;
   justify-content: center !important;
+  align-content:center !important;
   //margin: 20px 50px 20px 50px !important;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -160,9 +161,7 @@ article.popover-hint {
 
   justify-content: center !important;
   align-items: center !important;
-  width: 85%;
-  //padding-left: 1rem;
-  //padding-right: 1rem;
+  width: fit-content !important;
 }
 
 
