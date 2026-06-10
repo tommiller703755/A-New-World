@@ -98,6 +98,7 @@ body {
   flex-grow: 3 !important;
   margin-left: auto !important;
   margin-right: auto !important;
+  box-sizing: border-box !important;
 }
 
 /* Side panels (slightly wider) */
@@ -106,6 +107,7 @@ body {
   width: 100%;
   display: flex !important;
   flex-grow: 1;
+  box-sizing: border-box !important;
 }
 
 .left {
