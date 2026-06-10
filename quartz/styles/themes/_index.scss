@@ -150,13 +150,13 @@ body {
 
 #quartz-body {
   display: grid;
-  grid-template-columns: 1fr auto 1fr !important;
+  grid-template-columns: 1fr 2fr 1fr !important;
   grid-template-rows: auto auto !important;
   gap: 1rem !important;
 
   justify-content:center !important;
   align-content: center !important;
-  width: 1fr !important;
+  width: 2fr !important;
   margin: 40px 40px;
 
   border-style: groove !important;
