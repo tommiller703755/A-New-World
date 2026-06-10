@@ -131,8 +131,12 @@ body {
 
 #quartz-body {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
+  grid-template-columns: 1fr 2fr 1fr !important;
+  grid-template-rows: auto auto !important;
+  gap: 1rem !important;
+
+  justify-content:center !important;
+  align-content: center !important;
 }
 
 
