@@ -52,7 +52,8 @@ figure {
 figcaption {
   display: table-caption;
   caption-side: bottom;
-  text-align: left;
+  text-align: center !important;
+  font-size: 0.9rem;
   padding-top: 8px;
   color: var(--text-normal);
   margin: 0 auto;
