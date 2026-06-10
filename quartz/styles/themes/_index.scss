@@ -132,7 +132,7 @@ body {
 #quartz-body {
   display: flex !important;
   flex-direction: row !important;
-  flex-wrap: wrap !important;
+  flex-wrap: nowrap !important;
   gap: 15px !important;
 }
 
