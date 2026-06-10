@@ -66,7 +66,7 @@ video {
 /* ---------- CENTERED LAYOUT ---------- */
 body {
   font-family: "Garamond", "Goudy Old Style", "Palatino Linotype", serif !important;
-  background: radial-gradient(circle at top, #f7ecd8 0%, #e9d7b6 100%) !important;
+  //background: radial-gradient(circle at top, #f7ecd8 0%, #e9d7b6 100%) !important;
   color: var(--text-normal) !important;
   line-height: 1.6 !important;
   letter-spacing: 0.2px !important;
@@ -146,6 +146,8 @@ body {
 
   justify-content: center !important;
   align-items: center !important;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 
