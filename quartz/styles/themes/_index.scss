@@ -47,12 +47,12 @@ figure {
   display: block !important;
   width: max-content !important;
   margin: 0 auto !important;
+  text-align: center !important;
 }
 
 figcaption {
   display: table-caption;
   caption-side: bottom;
-  text-align: center !important;
   font-size: 0.9rem !important;
   padding-top: 8px;
   color: var(--text-normal);
