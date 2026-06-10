@@ -131,12 +131,23 @@ body {
 
 #quartz-body {
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr !important;
+  grid-template-columns: 1fr 2fr 1fr !important;
   grid-template-rows: auto auto !important;
   gap: 1rem !important;
 
   justify-content:center !important;
   align-content: center !important;
+
+  width: 80% !important;
+  flex-grow: 1;
+}
+
+#quartz-root {
+  display: flex !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 45px;
+  margin-right: 45px;
 }
 
 
