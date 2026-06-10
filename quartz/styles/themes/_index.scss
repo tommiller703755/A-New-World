@@ -53,10 +53,11 @@ figcaption {
   display: table-caption;
   caption-side: bottom;
   text-align: center !important;
-  font-size: 0.9rem;
+  font-size: 0.9rem !important;
   padding-top: 8px;
   color: var(--text-normal);
   margin: 0 auto;
+  width: 80% !important;
 }
 
 video {
