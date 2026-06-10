@@ -78,6 +78,10 @@ body {
   margin-bottom: 25px;
   margin-right: 35px;
   margin-left: 35px;
+  /*padding-top: ;
+  padding-bottom: ;
+  padding-left: ;
+  padding-right: ;*/
 }
 
 /* ---------- WIDTH ADJUSTMENTS ---------- */
@@ -156,8 +160,9 @@ article.popover-hint {
 
   justify-content: center !important;
   align-items: center !important;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  width: 85%;
+  //padding-left: 1rem;
+  //padding-right: 1rem;
 }
 
 
