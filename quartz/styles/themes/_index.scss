@@ -44,8 +44,9 @@ img {
 }
 
 figure {
-  display: table;
-  margin: 0 auto;
+  display: block !important;
+  width: max-content !important;
+  margin: 0 auto !important;
 }
 
 figcaption {
