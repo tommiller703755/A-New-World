@@ -129,6 +129,10 @@ body {
   margin-top: 20px;
 }
 
+article.popover-hint {
+  width: 100% !important;
+}
+
 #quartz-body {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr !important;
