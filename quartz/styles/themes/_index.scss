@@ -138,8 +138,9 @@ body {
   margin-top: 20px;
 }
 
-article.popover-hint {
+.popover-hint {
   width: 100% !important;
+  box-sizing: border-box !important;
 }
 
 #quartz-body {
