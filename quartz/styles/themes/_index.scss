@@ -95,6 +95,11 @@ body {
   flex-grow: 3 !important;
   margin-left: auto !important;
   margin-right: auto !important;
+
+  border-style: groove !important;
+  border-color: lightgrey !important;
+  border-width: 2px !important;
+  border-radius: 20px;
 }
 
 /* Side panels (slightly wider) */
@@ -151,23 +156,24 @@ body {
 
   justify-content:center !important;
   align-content: center !important;
-
   width: 1fr !important;
-
   margin: 40px 40px;
+
+  
 }
 
 #quartz-root {
   display: flex !important;
+  box-sizing: border-box !important;
 
   justify-content: center !important;
   align-items: center !important;
   
   width: 20% !important;
-  margin: 20px !important;
+  margin: 0 20px !important;
   padding: 10px !important;
-  box-sizing: border-box !important;
   flex-grow: 0 !important;
+  overflow: auto !important;
 }
 
 
