@@ -66,7 +66,7 @@ video {
 /* ---------- CENTERED LAYOUT ---------- */
 body {
   font-family: "Garamond", "Goudy Old Style", "Palatino Linotype", serif;
-   background: radial-gradient(circle at top, #1a1612 0%, #0b0907 100%);
+  background: radial-gradient(circle at top, #f7ecd8 0%, #e9d7b6 100%);
   color: var(--text-normal);
   line-height: 1.6;
   letter-spacing: 0.2px;
@@ -81,8 +81,8 @@ body {
 /* Main center content (make much wider) */
 .center {
   min-width: 0;
-  max-width: 900px !important;   /* increased significantly */
-  //width: 100% !important;
+  max-width: 900px;   /* increased significantly */
+  width: 100%;
   flex-grow: 3 !important;
   margin-left: auto !important;
   margin-right: auto !important;
@@ -91,7 +91,7 @@ body {
 /* Side panels (slightly wider) */
 .left, .right {
   max-width: 320px !important;    /* modest increase */
-  //width: 100% !important;
+  width: 100%;
   display: flex !important;
   flex-grow: 1;
 }
@@ -130,10 +130,9 @@ body {
 }
 
 #quartz-body {
-  display: flex !important;
-  flex-direction: row !important;
-  flex-wrap: nowrap !important;
-  gap: 15px !important;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
 }
 
 
@@ -318,6 +317,10 @@ body::before {
     --code-text: #f0e6d2;
 
     --highlight: #3a2a1a;
+  }
+
+  body {
+    background: radial-gradient(circle at top, #1a1612 0%, #0b0907 100%);
   }
 
   h1, h2, h3, h4, h5, h6 {
