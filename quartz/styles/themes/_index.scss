@@ -99,7 +99,6 @@ body {
 .left {
   min-width: 0;
   overflow-wrap: break-word !important;
-  z-index: static !important;
   margin-left: 20px !important;
   margin-right: auto !important;
   border-right: 1px solid var(--border-color);
@@ -111,7 +110,6 @@ body {
 .right {
   min-width: 0;
   overflow-wrap: break-word !important;
-  z-index: static !important;
   margin-left: auto !important;
   margin-right: 20px !important;
   border-left: 1px solid var(--border-color);
