@@ -81,27 +81,27 @@ body {
 /* Main center content (make much wider) */
 .center {
   min-width: 0;
-  max-width: 900px;   /* increased significantly */
+  max-width: 900px !important;   /* increased significantly */
   width: 100%;
-  flex-grow: 3;
-  margin-left: auto;
-  margin-right: auto;
+  flex-grow: 3 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 /* Side panels (slightly wider) */
 .left, .right {
   max-width: 320px;    /* modest increase */
   width: 100%;
-  display: flex;
+  display: flex !important;
   flex-grow: 1;
 }
 
 .left {
   min-width: 0;
-  overflow-wrap: break-word;
-  z-index: static;
-  margin-left: 20px;
-  margin-right: auto;
+  overflow-wrap: break-word !important;
+  z-index: static !important;
+  margin-left: 20px !important;
+  margin-right: auto !important;
   border-right: 1px solid var(--border-color);
   border-top: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
@@ -110,10 +110,10 @@ body {
 
 .right {
   min-width: 0;
-  overflow-wrap: break-word;
-  z-index: static;
-  margin-left: auto;
-  margin-right: 20px;
+  overflow-wrap: break-word !important;
+  z-index: static !important;
+  margin-left: auto !important;
+  margin-right: 20px !important;
   border-left: 1px solid var(--border-color);
   border-top: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
@@ -132,10 +132,10 @@ body {
 }
 
 #quartz-body {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 15px;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  gap: 15px !important;
 }
 
 
