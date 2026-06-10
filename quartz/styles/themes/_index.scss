@@ -91,8 +91,8 @@ body {
 /* Main center content (make much wider) */
 .center {
   min-width: 0;
-  max-width: 900px;   /* increased significantly */
-  width: 100%;
+  //max-width: 900px;   /* increased significantly */
+  width: calc(100% - 20%) !important;
   flex-grow: 3 !important;
   margin-left: auto !important;
   margin-right: auto !important;
