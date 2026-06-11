@@ -109,6 +109,7 @@ body {
   display: flex !important;
   flex-grow: 1;
   box-sizing: border-box !important;
+  z-index: static !important;
 }
 
 .left {
@@ -335,11 +336,6 @@ body::before {
   mix-blend-mode: multiply;
 }
 
-
-/* ==========================================
-   DARK MODE (CURSED TOME)
-========================================== */
-
 @media (prefers-color-scheme: dark) {
   :root {
     --background-primary: #0f0d0b;
@@ -425,15 +421,119 @@ body::before {
   }
 }
 
+// Mobile stylesheet
+@media (max-width: 600px) {
+  
+  body {
+    font-family: "Garamond", "Goudy Old Style", "Palatino Linotype", serif !important;
+    //background: radial-gradient(circle at top, #f7ecd8 0%, #e9d7b6 100%) !important;
+    color: var(--text-normal) !important;
+    line-height: 1.6 !important;
+    letter-spacing: 0.2px !important;
 
-/* ==========================================
-   OPTIONAL MANUAL OVERRIDES
-========================================== */
+    display: flex !important;
+    justify-content: center !important;
+    align-content:center !important;
+    //margin: 20px 50px 20px 50px !important;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 35px;
+    margin-left: 35px;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-right: 35px !important;
+    padding-left: 35px !important;
+    box-sizing: border-box !important;
+  }
 
-.cursed-theme {
-  color-scheme: dark;
-}
+  /* ---------- WIDTH ADJUSTMENTS ---------- */
 
-.parchment-theme {
-  color-scheme: light;
+  /* Main center content (make much wider) */
+  .center {
+    min-width: 0;
+    //max-width: 900px;   /* increased significantly */
+    width: calc(100% - 20%) !important;
+    flex-grow: 3 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Side panels (slightly wider) */
+  .left, .right {
+    max-width: 320px !important;    /* modest increase */
+    width: 100%;
+    display: flex !important;
+    flex-grow: 1;
+    box-sizing: border-box !important;
+  }
+
+  .left {
+    min-width: 0;
+    overflow-wrap: break-word !important;
+    margin-left: 20px !important;
+    margin-right: auto !important;
+    border-right: 1px solid var(--border-color);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    box-shadow: inset 10px 0 20px rgba(25,25,25,1);
+  }
+
+  .right {
+    min-width: 0;
+    overflow-wrap: break-word !important;
+    margin-left: auto !important;
+    margin-right: 20px !important;
+    border-left: 1px solid var(--border-color);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    box-shadow: inset -10px 0 20px rgba(25,25,25,1);
+  }
+
+  /* Main content container */
+  .page, .content, article {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 0.75rem;
+  }
+
+  .page-header {
+    margin-top: 20px;
+  }
+
+  .popover-hint {
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  #quartz-body {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr !important;
+    grid-template-rows: auto auto !important;
+    gap: 1rem !important;
+
+    justify-content:center !important;
+    align-content: center !important;
+    width: 2fr !important;
+    margin: 40px 40px;
+
+    border-style: groove !important;
+    border-color: rgb(145, 80, 0) !important;
+    border-width: 2px !important;
+    border-radius: 20px !important;
+  }
+
+  #quartz-root {
+    display: flex !important;
+    box-sizing: border-box !important;
+
+    justify-content: center !important;
+    align-items: center !important;
+    
+    width: 20% !important;
+    margin: 0 20px !important;
+    padding: 10px !important;
+    flex-grow: 0 !important;
+    overflow: auto !important;
+  }
 }
