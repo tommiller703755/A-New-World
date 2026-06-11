@@ -181,9 +181,18 @@ body {
   overflow: auto !important;
 }
 
-.markdown-preview-view ul {
+.markdown-preview-view > ul {
+  display: flex !important;
+  flex-wrap: wrap !important;
   width: 100% !important;
   overflow: auto !important;
+}
+
+.markdown-preview-view li {
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+  overflow-wrap: break-word !important;
+
 }
 
 /* ---------- HEADINGS ---------- */
