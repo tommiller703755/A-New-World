@@ -192,6 +192,11 @@ li {
   width: 1fr !important;
 }
 
+ul {
+  width: 1fr !important;
+  box-sizing: border-box !important;
+}
+
 /* ---------- HEADINGS ---------- */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Cinzel", "Garamond", serif;
@@ -239,9 +244,9 @@ a:hover {
   padding: 0.45rem 0.6rem;
 }
 
-li, ul {
+/*li, ul {
   width: 100%;
-}
+}*/
 
 .explorer-content {
   padding: 15px;
