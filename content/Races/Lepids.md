@@ -1,1 +1,38 @@
 **Butterfly/moth people** 
+
+```
+A figure staggered forward in a moonlit meadow, drawing ragged and gurgled breaths, and clutching a festering wound at it's side. It looked over it's shoulder, amber eyes darting around in search of it's pursuer, only to be suddenly shocked by another bolt of crackling energy, sending it stumbling to the ground. Looking up, the once immensely powerful being looked into it's attacker's hollow eyes before another bolt of energy brought it's life to an end.
+As the attacker looked over the body, ensuring that the job was done, it began to tremble, before blossoming open like a flower, nectar-like golden blood spilling into the meadow, spawning a field of flowers. Seeing this the figure turned and in an instant vanished from the meadow. Soon after, butterflies, drawn by the sickly sweet smell of the blood, came to feed.
+```
+
+### Introduction
+Lepids are a strange and ancient race, coming into being after butterflies inadvertently fed on the blood of a slain arch-fey, who's name has been long since lost to time. They're thought to have held dominion over flowers, blossoming, and the fleeting beauty created by nature; as a result their death poured this power out into the world, where the lepids inadvertently seized it. The field still exists, although it's location is known only to the oldest and most powerful of the lepids, with the knowledge basically being a death sentence for any other race that tries to find it.
+
+### Biology
+Lepids are far more different from humanity that simply being "humanoid butterflies" would imply. 
+- At a distance their wings appear to share the same beautiful coloring of a butterflies, but under closer inspection you can tell that they're made of a semi-transparent fleshy material, with the coloration coming from a patchwork of multicolor veins running through them. These colors can be adjusted by the lepid, and the colors are often used by lepids as a means of communication, rather than spoken language. They can also mimic the speech of other races by vibrating their wings to create specific pitches, although this process doesn't come naturally to them, meaning most lepids cannot speak to outsiders.
+- Their bodies are slender and segmented, like those of an insect. They stand about a head shorter than most humans, and have ball like joints, similar to a doll or drawing mannequin. They're almost entire covered in a thick, porcelain like exoskeleton, though that offers little in the way of physical protection. Their exoskeleton is covered in small, nearly invisible holes that they use for breathing.
+- Their faces are smooth and mask-like, covered in a featureless layer of the same porcelain like material that covers the rest of their body. They have no visible eyes or mouth, yet are able to see out of the entirety of their face, with it essentially working as a single giant eye, through unknown means. Their lack of a mouth doesn't impact them as they don't need to eat, breath through their exoskeleton and "speak" by vibrating their wings to mimic speech. Lepids who frequently deal with members of other races often, such as merchants and diplomats, wear porcelain masks onto of these faces in a- frequently failed- attempt to put others more at ease.
+- Only one story of a lepid being dissected exists, which asserts that their mostly hollow, with their anatomy mainly consisting of a set of strange kidney like organs forever cycling the essence they drank from the fallen arch-fey eons ago. Most disregard the story, but some more fanciful wizards have theorized that as the arch-fey held dominion over the cycles of growth, blossoming and wilting, lepids may be internally mimicking it, though what this may mean is unknown.
+- Lepids don't age in the traditional sense, and outside of when they're killed by external forces never die. When a lepid reaches 100 years old they're driven to create a cocoon for themselves. Entering inside the divine blood inside of them breaks through and unmakes them, transforming them into a slurry, before slowly reforming them over the course of a year. The lepid is completely helpless during this process, something made worse by the fact that the slurry they're reduced to is highly sought after by certain unethical alchemists for it's extreme regenerative properties, being capable of healing any and all wounds and diseases; even those brought on by curses.
+- Lepids are also completely infertile, with the only way of creating new lepids being bringing them to original field of flowers the race was born in. This is very rarely done, as the few who know the fields location know how much wizards and scholars long to know it's location and the lengths they'll go to in order to seize control of it.
+
+### Culture
+Lepids, perhaps due to their origin, prize beauty above all else, to the point where their entire society revolves around it. What separates them from many of the other mortal artists spread throughout the world is the fact that they don't pursue a perfect, eternal form a beauty, instead pouring their time and resources into spectacles they know won't last. Some pour their effort into growing beautiful flowers that bloom for a single day, some create sand patterns that will be destroyed by high tide, and some others have taken an interest in fireworks, a recent invention they discovered by trading with [[Ravkin]] wanderers. 
+Most Lepid structures are cultivated from magical plants, and begin wilting after only a few weeks, requiring new structures be grown, which is never quite the same as the original. The sole exception is their "Hibernaculum," where they go to enter their year long cycle of "reblooming." As a result lepid settlements are constantly changing as layouts slowly change and buildings are repeatedly replaced.
+They generally dress in flowy robes adorned with a large array of colors, many of which can only be seen by fellow lepids. Their blacksmithing and craftsmanship is also highly praised, although not for it's durability or power, with it being fairly standard in those areas, rather for it's beauty and artisanship. Wealthy members of most major races are known to flaunt lepid crafted goods as a status symbol.
+
+****
+#### Lepid Traits:
+
+**Age:** Lepids go through a cycle of death and rebirth. Every hundred years they undergo a year long "reblooming." Unless killed by outside forces they're effectively immortal.
+**Size:** Lepids are around five feet tall.
+**Gliding:** Their transformation from butterflies took their ability to fly, but lepids still possess the ability to glide tremendous distances. Their settlements often feature a center spire they can glide from when traveling abroad, to give them a good start.
+**Eerie:** Lepids are often ill received by other races, especially those that know little of them. Their alien appearance, and the strange buzzing their means of speaking produce puts others on guard.
+**Frail:** Lepids are notably frailer than most races, being weaker in terms of strength, and possessing exoskeletons that easily shatter.
+**Disease Resistant:** As a result of the nectar within them lepids can resist all known natural and magical illnesses.
+****
+
+<p id=scribe-note style="color: rgb(174, 105, 111); font-size: 26px; font-family: 'Brush Script MT'">
+	Lepids are above all known for their beauty. What is less known, and far stranger, is their tendency to congregate, almost subconsciously near the dead and dying. The number of accounts of lepids appearing near battlefield, hospitals and similar locations has begun to draw the attention of scholars, and led to questions about the exact nature of the arch-fey they came from, and why they were slain.
+</p>
