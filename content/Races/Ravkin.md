@@ -1,16 +1,15 @@
 **Nomadic carnivorous gnomes** 
-## Video test
-<video src="../Images/nature_stock_footage.mp4" width="100%" controls>
-  Your browser does not support the video tag.
-</video>
-
-## Story Section
-
-
-## Biology
+<div style="background-color: rgb(26, 21, 18); border-color: orange; border-radius: 10px; border-size: 1px;">
+A figure staggered forward in a moonlit meadow, drawing ragged and gurgled breaths, and clutching a festering wound at it's side. It looked over it's shoulder, amber eyes darting around in search of it's pursuer, only to be suddenly shocked by another bolt of crackling energy, sending it stumbling to the ground. Looking up, the once immensely powerful being looked into it's attacker's hollow eyes before another bolt of energy brought it's life to an end.
+As the attacker looked over the body, ensuring that the job was done, it began to tremble, before blossoming open like a flower, nectar-like golden blood spilling into the meadow, spawning a field of flowers. Seeing this the figure turned and in an instant vanished from the meadow. Soon after, butterflies, drawn by the sickly sweet smell of the blood, came to feed.
+</div>
+### Introduction
 
 
-## Culture
+### Biology
+
+
+### Culture
 
 
 ****
@@ -22,3 +21,7 @@
 **Carnivorous Nature:** Ravkin are obligate carnivores. They don't eat nearly as much as humans, and typically only need to eat once a day, although they'll often eat twice a day, once at dawn and once at sunset, when they can.
 **Fine Craftsmanship:** Ravkin leatherworkers, butchers and woodworkers are highly praised wherever they travel, and 
 ****
+
+<p id=scribe-note style="color: rgb(174, 105, 111); font-size: 26px; font-family: 'Brush Script MT'">
+	Ravkin are some
+</p>
