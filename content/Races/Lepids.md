@@ -1,7 +1,7 @@
 **Butterfly/moth people** 
 
 <div style="background-color: rgb(56, 51, 48); border-color: orange; border-radius: 10px; border-width: 1px; border-style: groove; box-sizing: border-box; padding: 12px;">
-A figure staggered forward in a moonlit meadow, drawing ragged and gurgled breaths, and clutching a festering wound at it's side. It looked over it's shoulder, amber eyes darting around in search of it's pursuer, only to be suddenly shocked by another bolt of crackling energy, sending it stumbling to the ground. Looking up, the once immensely powerful being looked into it's attacker's hollow eyes before another bolt of energy brought it's life to an end.
+A figure staggered forward in a moonlit meadow, drawing ragged and gurgled breaths, and clutching a festering wound at it's side. It looked over it's shoulder, amber eyes darting around in search of it's pursuer, only to be suddenly shocked by another bolt of crackling energy, sending it stumbling to the ground. Looking up, the once immensely powerful being looked into it's attacker's hollow eyes before another bolt of energy brought it's life to an end.<br>
 As the attacker looked over the body, ensuring that the job was done, it began to tremble, before blossoming open like a flower, nectar-like golden blood spilling into the meadow, spawning a field of flowers. Seeing this the figure turned and in an instant vanished from the meadow. Soon after, butterflies, drawn by the sickly sweet smell of the blood, came to feed.
 </div>
 
