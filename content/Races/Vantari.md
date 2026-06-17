@@ -9,7 +9,7 @@ All but the most fringe scholars agree that the vantari were once human, who wer
 While vantari have been known for the world for centuries, and there have been communities made up of those that escaped in the past it was only eight years ago by when they, along with the [[Fulgur]] managed to overthrow the Hecatoncheires in any real numbers, and have entered the world as a unified people. Most of them remained in the keeps and strongholds they seized from the Hecatoncheires, and as such they don't truly have a unified nation as much as a series of independent city states located in other nations. As the [[Bethionese Theocracy]] has already learned however they'll very quickly unify under a single banner if an outside force threatens one of their strongholds.
 ### Biology
 
-
+The vantari, while very unique, still clearly show their shared ancestry with humans.
 ### Culture
 
 
