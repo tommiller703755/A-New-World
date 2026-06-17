@@ -33,6 +33,7 @@ They generally dress in flowy robes adorned with a large array of colors, many o
 **Disease Resistant:** As a result of the nectar within them lepids can resist all known natural and magical illnesses.
 ****
 
-<p id=scribe-note style="color: rgb(174, 105, 111); font-size: 26px; font-family: 'Brush Script MT'">
+
+<div style="background-color: rgb(56, 51, 48); border-color: orange; border-radius: 10px; border-width: 1px; border-style: groove; box-sizing: border-box; padding: 12px;"><p id=scribe-note style="color: rgb(174, 105, 111); font-size: 26px; font-family: 'Brush Script MT'">
 	Lepids are above all known for their beauty. What is less known, and far stranger, is their tendency to congregate, almost subconsciously near the dead and dying. The number of accounts of lepids appearing near battlefield, hospitals and similar locations has begun to draw the attention of scholars, and led to questions about the exact nature of the arch-fey they came from, and why they were slain.
-</p>
+</p></div>

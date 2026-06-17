@@ -1,4 +1,4 @@
-**They're dragon-born** 
+**Orcs/lycanthropes, IDK yet** 
 **Nomadic carnivorous gnomes** 
 <div style="background-color: rgb(56, 51, 48); border-color: orange; border-radius: 10px; border-width: 1px; border-style: groove; box-sizing: border-box; padding: 12px;">
 	"Welcome to the forge, what can I help you with," a tinny voice rang out as the man entered the forge. The man opened his mouth to reply, only to shut it, a look of confusion crossing his face as he began looking around the shop. After a moment he turned towards the middle of the shop, and asked, "where are you." His confusion was met with a tinny chuckle from somewhere in the building.<br>

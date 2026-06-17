@@ -1,5 +1,5 @@
 **Sinister, lanky people** 
-<div style="background-color: rgba(26, 21, 18); border-color: orange; border-radius: 10px; border-size: 1px;">
+<div style="background-color: rgb(56, 51, 48); border-color: orange; border-radius: 10px; border-width: 1px; border-style: groove; box-sizing: border-box; padding: 12px;">
 Approaching the crossroads, the man felt lucky to be 
 </div>
 
