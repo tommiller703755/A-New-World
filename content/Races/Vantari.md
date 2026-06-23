@@ -3,6 +3,7 @@
 <div style="background-color: rgb(56, 51, 48); border-color: orange; border-radius: 10px; border-width: 1px; border-style: groove; box-sizing: border-box; padding: 12px;">
 	"Feeling his way"
 </div>
+
 ### Introduction
 
 All but the most fringe scholars agree that the vantari were once human, who were taken and enslaved by the Hecatoncheires, to be used in their vast mines. Not only did they spend generations underground subject to brutal labor, but they were also the subject of experimentation by the Hecatoncheires. This led to them becoming far stockier than ordinary humans, and losing most of the pigment in their skin and hair, leaving them albino. The Hecatoncheires cruelest act however came after a string of failed rebellions, where they were forced to drink a toxic brew that left them all mostly blind, only able to discern vague outlines. They now perceive the world around them using a form of tremor sense.

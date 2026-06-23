@@ -4,6 +4,7 @@
 	"Welcome to the forge, what can I help you with," a tinny voice rang out as the man entered the forge. The man opened his mouth to reply, only to shut it, a look of confusion crossing his face as he began looking around the shop. After a moment he turned towards the middle of the shop, and asked, "where are you." His confusion was met with a tinny chuckle from somewhere in the building.<br>
 	"I apologize for the confusion," the voice continued, followed by a series of mechanical sounding clicks and whirs. As the noises came to an end what the man had assumed was a suit of armor hanging from the wall jolted upright and walked towards him arm outstretched in greeting.
 </div>
+``
 ### Introduction
 
 
